@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ASIHTTP_NON_ARC_Lib' target in the 'ASIHTTP_NON_ARC_Lib' project
+//
+#import <TargetConditionals.h>
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

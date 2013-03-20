@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0915DD916F9BE9700396B85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915DD816F9BE9700396B85 /* UIKit.framework */; };
+		A0915DDB16F9BE9700396B85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915DDA16F9BE9700396B85 /* Foundation.framework */; };
+		A0915DDD16F9BE9700396B85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915DDC16F9BE9700396B85 /* CoreGraphics.framework */; };
+		A0915DE316F9BE9700396B85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0915DE116F9BE9700396B85 /* InfoPlist.strings */; };
+		A0915DE516F9BE9700396B85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0915DE416F9BE9700396B85 /* main.m */; };
+		A0915DE916F9BE9700396B85 /* CAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0915DE816F9BE9700396B85 /* CAAppDelegate.m */; };
+		A0915DEB16F9BE9700396B85 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0915DEA16F9BE9700396B85 /* Default.png */; };
+		A0915DED16F9BE9700396B85 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0915DEC16F9BE9700396B85 /* Default@2x.png */; };
+		A0915DEF16F9BE9700396B85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0915DEE16F9BE9700396B85 /* Default-568h@2x.png */; };
+		A0915DF216F9BE9700396B85 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0915DF016F9BE9700396B85 /* MainStoryboard.storyboard */; };
+		A0915DF516F9BE9700396B85 /* CAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0915DF416F9BE9700396B85 /* CAViewController.m */; };
+		A0915E0016F9C55E00396B85 /* BoardingPass.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = A0915DFB16F9C55E00396B85 /* BoardingPass.pkpass */; };
+		A0915E0116F9C55E00396B85 /* CardDivingMember.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = A0915DFC16F9C55E00396B85 /* CardDivingMember.pkpass */; };
+		A0915E0216F9C55E00396B85 /* ConcertTicket.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = A0915DFD16F9C55E00396B85 /* ConcertTicket.pkpass */; };
+		A0915E0316F9C55E00396B85 /* FreeHug.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = A0915DFE16F9C55E00396B85 /* FreeHug.pkpass */; };
+		A0915E0416F9C55E00396B85 /* GenericPass.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = A0915DFF16F9C55E00396B85 /* GenericPass.pkpass */; };
+		A0915E0816F9C6A200396B85 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915E0716F9C6A200396B85 /* PassKit.framework */; };
+		A0915E2516F9D8F700396B85 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915E1D16F9D55D00396B85 /* CFNetwork.framework */; };
+		A0915E2716F9D91100396B85 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915E2616F9D91100396B85 /* libxml2.dylib */; };
+		A0915E2916F9D92300396B85 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915E2816F9D92300396B85 /* libz.dylib */; };
+		A0915E2D16F9D94A00396B85 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915E2C16F9D94A00396B85 /* SystemConfiguration.framework */; };
+		A0915E2E16F9D96100396B85 /* libASIHTTP_NON_ARC_Lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915E0E16F9CF2E00396B85 /* libASIHTTP_NON_ARC_Lib.a */; };
+		A0915E2F16F9D98F00396B85 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0915E2A16F9D93700396B85 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0915E0D16F9CF2E00396B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0915E0916F9CF2E00396B85 /* ASIHTTP_NON_ARC_Lib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A06D003616318E6700453118;
+			remoteInfo = ASIHTTP_NON_ARC_Lib;
+		};
+		A0915E0F16F9CF4700396B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0915E0916F9CF2E00396B85 /* ASIHTTP_NON_ARC_Lib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A06D003516318E6700453118;
+			remoteInfo = ASIHTTP_NON_ARC_Lib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0915DD516F9BE9700396B85 /* PassKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0915DD816F9BE9700396B85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0915DDA16F9BE9700396B85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0915DDC16F9BE9700396B85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0915DE016F9BE9700396B85 /* PassKitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassKitDemo-Info.plist"; sourceTree = "<group>"; };
+		A0915DE216F9BE9700396B85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0915DE416F9BE9700396B85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0915DE616F9BE9700396B85 /* PassKitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassKitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A0915DE716F9BE9700396B85 /* CAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAAppDelegate.h; sourceTree = "<group>"; };
+		A0915DE816F9BE9700396B85 /* CAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAppDelegate.m; sourceTree = "<group>"; };
+		A0915DEA16F9BE9700396B85 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0915DEC16F9BE9700396B85 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A0915DEE16F9BE9700396B85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A0915DF116F9BE9700396B85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A0915DF316F9BE9700396B85 /* CAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAViewController.h; sourceTree = "<group>"; };
+		A0915DF416F9BE9700396B85 /* CAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAViewController.m; sourceTree = "<group>"; };
+		A0915DFB16F9C55E00396B85 /* BoardingPass.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = BoardingPass.pkpass; sourceTree = "<group>"; };
+		A0915DFC16F9C55E00396B85 /* CardDivingMember.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = CardDivingMember.pkpass; sourceTree = "<group>"; };
+		A0915DFD16F9C55E00396B85 /* ConcertTicket.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = ConcertTicket.pkpass; sourceTree = "<group>"; };
+		A0915DFE16F9C55E00396B85 /* FreeHug.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = FreeHug.pkpass; sourceTree = "<group>"; };
+		A0915DFF16F9C55E00396B85 /* GenericPass.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenericPass.pkpass; sourceTree = "<group>"; };
+		A0915E0616F9C63700396B85 /* PassKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PassKitDemo.entitlements; sourceTree = "<group>"; };
+		A0915E0716F9C6A200396B85 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		A0915E0916F9CF2E00396B85 /* ASIHTTP_NON_ARC_Lib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ASIHTTP_NON_ARC_Lib.xcodeproj; path = ASIHTTP_NON_ARC_Lib/ASIHTTP_NON_ARC_Lib.xcodeproj; sourceTree = "<group>"; };
+		A0915E1D16F9D55D00396B85 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A0915E2616F9D91100396B85 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		A0915E2816F9D92300396B85 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A0915E2A16F9D93700396B85 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A0915E2C16F9D94A00396B85 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0915DD216F9BE9700396B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0915E2F16F9D98F00396B85 /* MobileCoreServices.framework in Frameworks */,
+				A0915E2E16F9D96100396B85 /* libASIHTTP_NON_ARC_Lib.a in Frameworks */,
+				A0915E2D16F9D94A00396B85 /* SystemConfiguration.framework in Frameworks */,
+				A0915E2916F9D92300396B85 /* libz.dylib in Frameworks */,
+				A0915E2716F9D91100396B85 /* libxml2.dylib in Frameworks */,
+				A0915E2516F9D8F700396B85 /* CFNetwork.framework in Frameworks */,
+				A0915E0816F9C6A200396B85 /* PassKit.framework in Frameworks */,
+				A0915DD916F9BE9700396B85 /* UIKit.framework in Frameworks */,
+				A0915DDB16F9BE9700396B85 /* Foundation.framework in Frameworks */,
+				A0915DDD16F9BE9700396B85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0915DCC16F9BE9700396B85 = {
+			isa = PBXGroup;
+			children = (
+				A0915E2C16F9D94A00396B85 /* SystemConfiguration.framework */,
+				A0915E2A16F9D93700396B85 /* MobileCoreServices.framework */,
+				A0915E2816F9D92300396B85 /* libz.dylib */,
+				A0915E2616F9D91100396B85 /* libxml2.dylib */,
+				A0915E1D16F9D55D00396B85 /* CFNetwork.framework */,
+				A0915E0716F9C6A200396B85 /* PassKit.framework */,
+				A0915DDE16F9BE9700396B85 /* PassKitDemo */,
+				A0915DD716F9BE9700396B85 /* Frameworks */,
+				A0915DD616F9BE9700396B85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0915DD616F9BE9700396B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0915DD516F9BE9700396B85 /* PassKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0915DD716F9BE9700396B85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0915E0916F9CF2E00396B85 /* ASIHTTP_NON_ARC_Lib.xcodeproj */,
+				A0915DD816F9BE9700396B85 /* UIKit.framework */,
+				A0915DDA16F9BE9700396B85 /* Foundation.framework */,
+				A0915DDC16F9BE9700396B85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0915DDE16F9BE9700396B85 /* PassKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A0915E0616F9C63700396B85 /* PassKitDemo.entitlements */,
+				A0915E0516F9C56400396B85 /* Passes */,
+				A0915DE716F9BE9700396B85 /* CAAppDelegate.h */,
+				A0915DE816F9BE9700396B85 /* CAAppDelegate.m */,
+				A0915DF016F9BE9700396B85 /* MainStoryboard.storyboard */,
+				A0915DF316F9BE9700396B85 /* CAViewController.h */,
+				A0915DF416F9BE9700396B85 /* CAViewController.m */,
+				A0915DDF16F9BE9700396B85 /* Supporting Files */,
+			);
+			path = PassKitDemo;
+			sourceTree = "<group>";
+		};
+		A0915DDF16F9BE9700396B85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0915DE016F9BE9700396B85 /* PassKitDemo-Info.plist */,
+				A0915DE116F9BE9700396B85 /* InfoPlist.strings */,
+				A0915DE416F9BE9700396B85 /* main.m */,
+				A0915DE616F9BE9700396B85 /* PassKitDemo-Prefix.pch */,
+				A0915DEA16F9BE9700396B85 /* Default.png */,
+				A0915DEC16F9BE9700396B85 /* Default@2x.png */,
+				A0915DEE16F9BE9700396B85 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0915E0516F9C56400396B85 /* Passes */ = {
+			isa = PBXGroup;
+			children = (
+				A0915DFB16F9C55E00396B85 /* BoardingPass.pkpass */,
+				A0915DFC16F9C55E00396B85 /* CardDivingMember.pkpass */,
+				A0915DFD16F9C55E00396B85 /* ConcertTicket.pkpass */,
+				A0915DFE16F9C55E00396B85 /* FreeHug.pkpass */,
+				A0915DFF16F9C55E00396B85 /* GenericPass.pkpass */,
+			);
+			name = Passes;
+			sourceTree = "<group>";
+		};
+		A0915E0A16F9CF2E00396B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0915E0E16F9CF2E00396B85 /* libASIHTTP_NON_ARC_Lib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0915DD416F9BE9700396B85 /* PassKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0915DF816F9BE9700396B85 /* Build configuration list for PBXNativeTarget "PassKitDemo" */;
+			buildPhases = (
+				A0915DD116F9BE9700396B85 /* Sources */,
+				A0915DD216F9BE9700396B85 /* Frameworks */,
+				A0915DD316F9BE9700396B85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0915E1016F9CF4700396B85 /* PBXTargetDependency */,
+			);
+			name = PassKitDemo;
+			productName = PassKitDemo;
+			productReference = A0915DD516F9BE9700396B85 /* PassKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0915DCD16F9BE9700396B85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Globallogic;
+			};
+			buildConfigurationList = A0915DD016F9BE9700396B85 /* Build configuration list for PBXProject "PassKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0915DCC16F9BE9700396B85;
+			productRefGroup = A0915DD616F9BE9700396B85 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A0915E0A16F9CF2E00396B85 /* Products */;
+					ProjectRef = A0915E0916F9CF2E00396B85 /* ASIHTTP_NON_ARC_Lib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A0915DD416F9BE9700396B85 /* PassKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A0915E0E16F9CF2E00396B85 /* libASIHTTP_NON_ARC_Lib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libASIHTTP_NON_ARC_Lib.a;
+			remoteRef = A0915E0D16F9CF2E00396B85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0915DD316F9BE9700396B85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0915DE316F9BE9700396B85 /* InfoPlist.strings in Resources */,
+				A0915DEB16F9BE9700396B85 /* Default.png in Resources */,
+				A0915DED16F9BE9700396B85 /* Default@2x.png in Resources */,
+				A0915DEF16F9BE9700396B85 /* Default-568h@2x.png in Resources */,
+				A0915DF216F9BE9700396B85 /* MainStoryboard.storyboard in Resources */,
+				A0915E0016F9C55E00396B85 /* BoardingPass.pkpass in Resources */,
+				A0915E0116F9C55E00396B85 /* CardDivingMember.pkpass in Resources */,
+				A0915E0216F9C55E00396B85 /* ConcertTicket.pkpass in Resources */,
+				A0915E0316F9C55E00396B85 /* FreeHug.pkpass in Resources */,
+				A0915E0416F9C55E00396B85 /* GenericPass.pkpass in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0915DD116F9BE9700396B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0915DE516F9BE9700396B85 /* main.m in Sources */,
+				A0915DE916F9BE9700396B85 /* CAAppDelegate.m in Sources */,
+				A0915DF516F9BE9700396B85 /* CAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0915E1016F9CF4700396B85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASIHTTP_NON_ARC_Lib;
+			targetProxy = A0915E0F16F9CF4700396B85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0915DE116F9BE9700396B85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0915DE216F9BE9700396B85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0915DF016F9BE9700396B85 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0915DF116F9BE9700396B85 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0915DF616F9BE9700396B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/ASIHTTP_NON_ARC_Lib/Classes\"/**",
+					"\"$(SRCROOT)/ASIHTTP_NON_ARC_Lib/Reachability\"/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0915DF716F9BE9700396B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/ASIHTTP_NON_ARC_Lib/Classes\"/**",
+					"\"$(SRCROOT)/ASIHTTP_NON_ARC_Lib/Reachability\"/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0915DF916F9BE9700396B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PassKitDemo/PassKitDemo.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassKitDemo/PassKitDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/ASIHTTP_NON_ARC_Lib/Classes\"/**",
+					"\"$(SRCROOT)/ASIHTTP_NON_ARC_Lib/Reachability\"/**",
+				);
+				INFOPLIST_FILE = "PassKitDemo/PassKitDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0915DFA16F9BE9700396B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PassKitDemo/PassKitDemo.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassKitDemo/PassKitDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/ASIHTTP_NON_ARC_Lib/Classes\"/**",
+					"\"$(SRCROOT)/ASIHTTP_NON_ARC_Lib/Reachability\"/**",
+				);
+				INFOPLIST_FILE = "PassKitDemo/PassKitDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0915DD016F9BE9700396B85 /* Build configuration list for PBXProject "PassKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0915DF616F9BE9700396B85 /* Debug */,
+				A0915DF716F9BE9700396B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0915DF816F9BE9700396B85 /* Build configuration list for PBXNativeTarget "PassKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0915DF916F9BE9700396B85 /* Debug */,
+				A0915DFA16F9BE9700396B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0915DCD16F9BE9700396B85 /* Project object */;
+}
