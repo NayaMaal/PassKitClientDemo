@@ -15,5 +15,8 @@
                                                 ASIHTTPRequestDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *myTableView;
 @property (strong, nonatomic) NSMutableArray *passes;
+@property (strong, nonatomic) NSMutableData *inData;
+@property (strong, nonatomic) PKPassLibrary *library;
+- (IBAction)refreshData:(id)sender;
 
 @end

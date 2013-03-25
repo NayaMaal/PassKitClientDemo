@@ -427,6 +427,7 @@
 				A0915DFA16F9BE9700396B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
